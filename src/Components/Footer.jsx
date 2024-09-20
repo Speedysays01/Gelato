@@ -42,16 +42,16 @@ const Footer = () => {
 
       <div className="column">
         <h4>Print on demand</h4>
-        <a href="">What is print on demand?</a>
-        <a href="">Product catalog</a>
-        <a href="">Shipping and delivery</a>
-        <a href="">Dropshipping Products</a>
-        <a href="">Pro sellers</a>
-        <a href="">White label products</a>
-        <a href="">Return Policy</a>
-        <a href="">Global yet local</a>
-        <a href=""> sustainibility </a>
-        <a href="">Support</a>
+        <a >What is print on demand?</a>
+        <a >Product catalog</a>
+        <a >Shipping and delivery</a>
+        <a >Dropshipping Products</a>
+        <a >Pro sellers</a>
+        <a >White label products</a>
+        <a >Return Policy</a>
+        <a >Global yet local</a>
+        <a > sustainibility </a>
+        <a >Support</a>
         
 
 
@@ -59,11 +59,11 @@ const Footer = () => {
 
       <div className="column">
         <h4>Integrations</h4>
-        <a href="">Shopify</a>
-        <a href="">Itsy</a>
-        <a href="">Woo commerce</a>
-        <a href="">wix</a>
-        <a href="">SquareSpace</a>
+        <a >Shopify</a>
+        <a >Itsy</a>
+        <a >Woo commerce</a>
+        <a >wix</a>
+        <a >SquareSpace</a>
        
 
 
@@ -71,20 +71,20 @@ const Footer = () => {
 
       <div className="column">
         <h4>Start Selling</h4>
-        <a href="">Embroidery</a>
-        <a href="">Print on demand hoodies</a>
-        <a href="">Print on demand Tshirts</a>
-        <a href="">Print on demand Canvas</a>
-        <a href="">Print on demand Calanders</a>
-        <a href="">Print on demand Mugs</a>
-        <a href="">Custom Products</a>
-        <a href="">Custom clothing</a>
-        <a href=""> Custom Merchandise </a>
-        <a href="">custom phone cases</a>
-        <a href="">Print on demand in Europe</a>
-        <a href="">Print on demand in UK</a>
-        <a href="">Print on demand in France</a>
-        <a href="">Print on demand in Canada</a>
+        <a >Embroidery</a>
+        <a >Print on demand hoodies</a>
+        <a >Print on demand Tshirts</a>
+        <a >Print on demand Canvas</a>
+        <a >Print on demand Calanders</a>
+        <a >Print on demand Mugs</a>
+        <a >Custom Products</a>
+        <a >Custom clothing</a>
+        <a > Custom Merchandise </a>
+        <a >custom phone cases</a>
+        <a >Print on demand in Europe</a>
+        <a >Print on demand in UK</a>
+        <a >Print on demand in France</a>
+        <a >Print on demand in Canada</a>
         
 
 
@@ -94,19 +94,19 @@ const Footer = () => {
       
       <div className="column">
         <h4>Company</h4>
-        <a href="">GelatoConnect</a>
-        <a href="">About Gelato</a>
-        <a href="">Leadership Team</a>
-        <a href="">Board & Inverstors</a>
-        <a href="">Print on demand Calanders</a>
-        <a href="">Print on demand Mugs</a>
-        <a href="">NewsRooms</a>
-        <a href="">Blogs</a>
-        <a href=""> Customer stories</a>
-        <a href="">Parteners</a>
-        <a href="">Careers</a>
-        <a href="">Affiliate Programs</a>
-        <a href="">Print on demand in France</a>
+        <a >GelatoConnect</a>
+        <a >About Gelato</a>
+        <a >Leadership Team</a>
+        <a >Board & Inverstors</a>
+        <a >Print on demand Calanders</a>
+        <a >Print on demand Mugs</a>
+        <a >NewsRooms</a>
+        <a >Blogs</a>
+        <a > Customer stories</a>
+        <a >Parteners</a>
+        <a >Careers</a>
+        <a >Affiliate Programs</a>
+        <a >Print on demand in France</a>
         
         
 

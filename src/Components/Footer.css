@@ -1,0 +1,197 @@
+/* Base styles (for desktop/laptop) */
+footer {
+    background-color: black;
+    padding: 2rem 5rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .horizontalSection img {
+    width: 150px;
+  }
+  
+  .findUs {
+    display: flex;
+    align-items: center;
+  }
+  
+  .findUs p {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    color: white;
+  }
+  
+  .logoWhite {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .column a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #a9a9a9;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .column a:hover {
+    text-decoration: underline;
+  }
+  
+  .column p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .column button {
+    background-color: #333;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .apps button {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+  }
+
+  .apps button:hover {
+  
+    background-color: #333;
+    color: #fff;
+   
+  }
+  
+  .apps button .logo {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .getStarted{
+    margin-bottom: 2rem;
+  }
+
+  .column p{
+    color: white;
+  }
+  
+  /* Responsive styles for tablet */
+  @media (max-width: 1024px) {
+    footer {
+      padding: 2rem;
+    }
+  
+    .footerContainer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .findUs {
+      margin-top: 1rem;
+    }
+  
+    .columns {
+      flex-wrap: wrap;
+    }
+  
+    .column {
+      flex: 1 1 45%; /* Each column takes up 45% of the width on tablet */
+      margin-bottom: 2rem;
+    }
+  
+    .horizontalSection img {
+      width: 120px;
+    }
+  
+    button {
+      padding: 0.5rem 1rem;
+    }
+  
+    .apps button {
+      margin-top: 0.5rem;
+    }
+  }
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 768px) {
+    footer {
+      padding: 1.5rem;
+    }
+  
+    .footerContainer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .findUs {
+      margin-top: 1rem;
+      justify-content: center;
+    }
+  
+    .columns {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .column {
+      flex: 1 1 100%; /* Each column takes 100% of the width on mobile */
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .horizontalSection img {
+      width: 100px;
+    }
+  
+    button {
+      padding: 0.5rem 0.8rem;
+    }
+  
+    .apps {
+      flex-direction: column;
+    }
+  
+    .apps button {
+      margin-top: 0.5rem;
+      width: 100%; /* Makes the app buttons full-width on mobile */
+    }
+  }
+  

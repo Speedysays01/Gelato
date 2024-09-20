@@ -1,0 +1,32 @@
+.offerWrapper{
+    display: flex;
+    justify-content: flex-start;
+    background: black;
+    color: whitesmoke;
+    overflow: hidden;
+    position: relative;
+}
+
+h2{
+    font-size: 1.2rem;
+    white-space: nowrap;
+    padding: 0 6rem;
+    animation: move 6000ms linear infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width:780px){
+    .offerWrapper{
+        margin-top: 6rem;
+    }
+}

@@ -1,0 +1,45 @@
+.connectContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   padding: 1rem;
+   gap: 4rem;
+   margin-bottom: 3rem;
+}
+
+.movingDivs{
+  display: inline;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info h3{
+    font-size: 3rem;
+}
+
+.connectBtn{
+    padding: 0.5rem;
+    background-color: black;
+    color: azure;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+}
+
+.connectBtn:hover{
+    background-color: white;
+    border: 0.1rem solid black;
+    color: black;
+}
+
+@media (max-width:780px){
+    .connectContainer{
+        flex-direction: column;
+    }
+}

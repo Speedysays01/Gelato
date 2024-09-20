@@ -1,0 +1,71 @@
+/* InfiniteCarousel.css */
+.carousel-container {
+    width: 45%; /* Occupies the left half of the page */
+    overflow: hidden;
+    position: relative;
+    background-color: white; /* Background color of the container */
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    margin-left: 10rem;
+    border-radius: 0.75rem;
+    border: 0.1rem solid rgb(216, 216, 216);
+}
+
+.carousel-wrapper {
+    display: flex;
+    width: calc(12rem * 6); /* Adjust width to fit all items */
+    animation: scroll 15s linear infinite;
+}
+
+.carousel-item {
+    flex: 0 0 12rem; /* Fixed width for each item */
+    flex-direction: column;
+    height: 100px; /* Height of each div */
+    margin: 0 10px; /* Margin between items */
+    border-radius: 0.75rem;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.first{
+    background-color: #FFDE4D;
+    color: black;
+}
+
+.second{
+    background: #77E4C8;
+    color: black;
+}
+
+.third{
+    background: #B4E380;
+    color: black;
+}
+
+.carousel-item logo{
+    color: black;
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width:780px){
+    .carousel-container{
+        width: 70vw;
+        margin-left: 0;
+    }
+    
+}

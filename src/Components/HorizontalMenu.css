@@ -1,0 +1,56 @@
+/* Horizontal menu styles */
+.horizontal-menu {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 10px;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 6rem;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+.menu-button:hover {
+    background: rgb(209, 209, 209);
+    border-radius: 0.75rem;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+    .horizontal-menu{
+        visibility: hidden;
+        display: none;
+    }
+}

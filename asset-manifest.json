@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Gelato/static/css/main.c05abced.css",
+    "main.js": "/Gelato/static/js/main.cafbbc25.js",
+    "static/js/453.419a5d54.chunk.js": "/Gelato/static/js/453.419a5d54.chunk.js",
+    "static/media/why.png": "/Gelato/static/media/why.a901a874bb5967e50df7.png",
+    "static/media/home.png": "/Gelato/static/media/home.aae931fe2d1d89a3d727.png",
+    "index.html": "/Gelato/index.html",
+    "main.c05abced.css.map": "/Gelato/static/css/main.c05abced.css.map",
+    "main.cafbbc25.js.map": "/Gelato/static/js/main.cafbbc25.js.map",
+    "453.419a5d54.chunk.js.map": "/Gelato/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c05abced.css",
+    "static/js/main.cafbbc25.js"
+  ]
+}
